@@ -1,0 +1,173 @@
+CSS is use to describe the style of a document
+
+**Basic Syntax**
+```
+H1 {
+
+  color:  red;
+
+}
+```
+
+H1=selector;
+
+Color=property;
+
+Red=value;
+
+Including CSS in a page
+
+**1.inline style**
+
+In this we write style directly inline on each element
+
+`<h1 style="color: red;">hello world</h1>`
+
+`<button style="color: yellowgreen;" type="submit">submit</button>`
+
+**2.Style using style tag**
+
+Adding style tag in head and add property
+```	
+<head>
+
+    <style>
+
+        h1{
+
+            color: rebeccapurple;
+
+        }
+
+    </style>
+
+</head>
+```
+
+**3.External stylesheet**
+
+Writing CSS in a separate document & linking it with html document.
+
+File name
+
+Style.css
+```
+ h1{
+
+    color: rebeccapurple;
+
+}
+```
+
+Linking html with CSS
+```
+<head>
+
+        <link rel="stylesheet" href="style.css">
+
+</head>
+```
+
+**Point:** Use online color picker to select color
+
+**CSS Property**
+
+Color Property
+
+**1.forground color**
+
+Property name=color
+
+**2.background color**
+
+Property name=background-color
+
+**Text Property**
+
+```
+text-align: center;
+
+font-weight: 100;  
+
+text-decoration: dashed;
+
+line-height: normal;
+
+letter-spacing: 0cap;
+
+font-size: large;
+```
+
+Text align is relative to parent not absolute alignment.it depend on size of parent element. Then it is set to right or left of parent element.
+
+```
+Text-align=right
+
+Text-align=left
+
+Text-align=justify
+
+Text-align=center
+```
+
+**Font weight**
+
+How much font is light or bold
+
+Value between 100 and 900
+
+`Font weight=normal or font weight=400 is same.`
+
+Less than 400 light and more than 400 bold.
+
+**Text decoration**
+
+Appearance of  decorative text on text like underline.
+
+```
+text-decoration: dashed;
+
+text-decoration: underline;
+
+text-decoration: overline;
+```
+
+**Line-height**
+
+Control the height of the line of text.
+
+    line-height: normal;
+
+    line-height: 2.5;
+
+Where 2.5 mean 2.5 multiply by normal
+
+**Letter-spacing**
+
+    letter-spacing: normal;
+
+    letter-spacing: 10px;
+
+**Font-size unit in CSS**
+
+These are absolute size in CSS
+```
+92 px= 1 inch
+
+72 pt= 1 inch
+
+12pt=1pc
+```
+
+Relative size in CSS
+```
+%
+
+Em  =relative to current size
+
+Rem= relative to parent size.
+
+Font-family
+```
+
+Prioritized list of one or more font family names
