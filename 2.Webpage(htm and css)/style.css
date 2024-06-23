@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.Main{
+    background-image: url(background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.navbar h1{
+    color: plum;
+    font-size: 32px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.navbar ul{
+    display: flex;
+    position: relative;
+    align-items: end;
+    padding-top: 25px;
+    list-style: none;
+    margin-left: 80px;
+}
+
+.navbar ul li{
+    margin-left: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+}
+.navbar ul li:hover{
+    box-shadow: 5px 10px 10px plum;
+    background-color: purple;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.navbar input{
+    margin-left: 15px;
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    padding: 10px;
+    background-color: transparent;
+    appearance: flat;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.navbar input::placeholder{
+    color: white;
+}
+.navbar input[type="text"]{
+    color: white;
+}
+.navbar button{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    padding: 10px;
+    background-color: plum;
+    border: 2px solid rgba(255,255,255,0.1);
+    color:purple;
+}
+.navbar button:hover{
+    box-shadow: 5px 10px 10px plum;
+    background-color: purple;
+    color: white;
+    font-weight: 700;
+}
+.PageModel{
+    display: flex;
+   
+    flex-direction: column;
+    margin:10% 0;
+    align-content: center;
+    justify-items: center;
+}
+.PageModel .main_data h1{
+    position:absolute;
+    margin-left: 40px;
+    width: 31%;
+    font-size: 45px;
+    color: plum;
+    
+}
+.PageModel .main_data h1 span{
+    color: white;
+}
+.PageModel .main_data p{
+    margin: 13% 40px;
+    position: absolute;
+    color: white;
+    width: 50%;
+}
+.PageModel .main_data button{
+    width: 150px;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 40px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: none;
+    background-color:plum ;
+    color: white;
+    font-weight: 700;
+}
+.PageModel .main_data button:hover{
+    background-color: purple;
+}
+.PageModel .login_page{
+    width: 300px;
+    height: 420px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+
+    position: absolute;
+    background-color: transparent;
+    right: 100px;
+    bottom: 70px;
+}
+
+.login_page #login{
+    margin: 10px 12px;
+    top: 0;
+    padding: 10px 85px;
+  
+    justify-self: center;
+    background-color: plum;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+}
+.login_page #user {
+    position: absolute;
+    top: 80px;
+    width: 265px;
+    height: 35px;
+    margin-left: 16px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid plum;
+    
+}
+.login_page #password {
+    position: absolute;
+    top: 150px;
+    width: 265px;
+    height: 35px;
+    margin-left: 16px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid plum;
+}
+.login_page #password:hover , .login_page #user:hover {
+    border: 1px solid pl;
+    border: 1px solid plum;
+    border-bottom: 2px solid plum;
+}
+
+.login_page [type="password"]{
+    color: white;
+}
+.login_page #loginbtn{
+    margin: 10px 15px;
+    top: 200px;
+    padding: 10px 105px;    
+    justify-self: center;
+    background-color: plum;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+.login_page #loginbtn:hover{
+    background-color: purple;
+}
+.login_page [type="text"]{
+    color: white;
+}
+.login_page #label_signup{
+    position: absolute;
+    top: 270px;
+    padding-left: 60px;
+    color: white; 
+}
+.login_page #label_signup #span1{
+    padding-left: 40px;
+}
+.login_page input::placeholder{
+    color: white;
+}
+.login_page #label_signup #span2{
+    padding-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login_page .icon{
+    position: absolute;
+    bottom: 40px;
+    left: 90px;
+}
+
+.login_page .icon ul li{
+    display: inline;   
+    margin: 3px;
+    align-items: center;
+    
+}
+.login_page .icon ul li a{
+    color: white; 
+    font-size: 19px;
+}
+
+.login_page .icon ul li a:hover{
+    color: black;
+    font-size: 21px;
+}
