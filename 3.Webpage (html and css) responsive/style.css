@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+header {
+    background-image: url(assets/asset\ 30.jpeg);
+    height: 100vh;
+    unicode-bidi: isolate;
+    display: block;
+    background-size: cover;
+    background: #143162;
+    width: 100vw;
+    /*background-color: #367BF0;*/
+    /*background-color: rgba(36, 7B, F0, 0.2);*/
+    /*background: rgba(54, 123, 240, 0.1);*/
+    
+}
+
+.navbar .logo a{
+    background-image: url(assets/asset\ 31.svg);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.navbar .itemlist ul{
+    display: flex ;
+}
+.itemlist ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.itemlist ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 13px;
+}
+
+ #logo1{
+    background-image: url(https://www.kali.org/images/kali-logo.svg);
+    width: 100px;
+    height: 100%;
+}
+.logo{
+    opacity: 0.5;
+}
+.banner{
+    display: flex;
+    /*margin: auto;*/
+    top:10%;
+    bottom: auto;
+    position: relative;
+    /*left: 12%;*/
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    
+}
+.logo{
+    height: auto;
+    width: 100px;
+
+}
+
+.logo img{
+    height: auto;
+    max-width: 100%;
+
+}
+.logo_kali{
+    height: auto;
+    width: auto;
+  
+    /*border: 2px solid black;*/
+  
+}
+.logo_kali img{
+    position: relative;
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+}
+.text {
+    border:2px solid black;
+    width: 600px;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+   /* border: 1px solid black;*/
+    align-items: start;
+    max-width: 600px;
+}
+
+.container p{
+    margin: 10px 0px 10px 30px;
+    color: white;
+    font-size: 19px;
+}
+.container h1{
+    margin-left: 30px;
+    margin-top: 40px;
+    font-weight: 350;
+    font-size: 35px;
+    color: white;
+}
+.btn{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#downloads{
+    color: #FEA44c;
+    background: transparent;
+    border: 2px solid #FEA44c;
+    width: 180px;
+    height: 57.1px;
+    font-size: 14px;
+    position: relative;
+    padding: 18.06px 9.94px;
+    margin-right: 10.5px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px black;
+}
+ #downloads:hover{
+    box-shadow: 2px 2px 2px #FEA44c;
+    color: white;
+    background-color: #FEA44c;  
+    transition: 0.2s ease;  
+}
+
+.btn #Documentation{
+    color: white;
+    background: #367bf0;
+    border: 2px solid #367bf0;
+    width: 180px;
+    font-size: 14px;
+    height: 57.1px;
+    position: relative;
+    padding: 18.06px 9.94px;
+    margin-right: 10.5px;
+    border-radius: 5px;
+}
+.btn #Documentation:hover{
+    box-shadow: 2px 2px 2px #367bf0;
+    color: white;
+    transition: 0.2s ease;
+}
+.industry_std {
+    margin-top: 120px;
+}
+
+.industry_std h1{
+    font-size: 45px;
+    background: linear-gradient(to right,#2777ff,#a400a4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.industry_std .platform{
+  /*  width: 600px;*/
+    margin-top: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+}
+
+.industry_std .list{
+    margin-top: 30px;
+    display: flex;
+    max-width: 970px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.list{
+    list-style-type: none;
+}
+.list li{
+    position: relative;
+    width:300px;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.links{
+    text-decoration: none;
+}
+.list li p{
+    text-align: justify;
+    margin: 20px 0px;
+    color: grey;
+    font-size: 15px;
+}
+
+.main_link{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+figure{
+    position: relative;
+    overflow: hidden;
+}
+figure:first-child{
+    height: auto;
+    width: 80%;
+
+}
+figure img:last-child{
+    position: absolute;
+    width: 79%;
+    right: 10.5%;
+    height: auto;
+    top: 5%;
+    border-radius: 5px;
+    
+}
+@media(max-width:1024px){
+    .banner{
+        display: block;
+        width: 500px;
+        top:0%;
+    }
+    .container{
+        justify-content: center;
+        align-items: center;
+    }
+    .container p{
+        display: none;
+    }
+    .container h1::before{
+        position: relative;
+        content: "Kali Linux";
+        display: block;
+        text-align: center;
+        font-size: 55px;
+        font-weight: 700;
+        align-items: center;
+        
+    }
+    .btn{
+        margin-top:2% ;
+    }
+    .container h1{
+        display: block;
+        text-align: center;
+        margin-top: 0;
+        font-size: 20px;
+    }
+    header{
+        padding: 0 30px;
+    }
+    .navbar{
+        margin: 0%;
+    }
+    .itemlist ul li a{
+        padding :10px 6px;
+    }
+    .logo_kali img{
+        position: relative;
+        width: 400px;
+        height: 300px;
+    }
+}
+
+
+@media(max-width:850px){
+    .banner{
+        display: block;
+        width: 100%;
+        top:8%;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .logo_kali{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .container{    
+        align-items: center;
+        display: flex;
+        max-width: 100%;
+    }
+    .container h1::before{
+        margin-top: 1%;
+        font-size: 1.5em;
+        text-align: center;
+        width: 100%;
+    }
+    .container h1{
+        margin: 2%;
+        font-size: 1.5em;
+    }
+    .btn{
+        margin-top: 5%;
+    }
+    .platform{
+        display: none;
+    }
+    .itemlist{
+        display: none;
+    }
+    .logo_kali img{
+        width: 300px;
+        height: 250px;
+    }
+}
