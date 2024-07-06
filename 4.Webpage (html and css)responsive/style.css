@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    background-color: black;
+}
+.sidebar{
+    width: 26.25rem;
+   
+    background-color: black;
+    
+}
+.mainpage{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    background-color: #131313;
+    flex: 1;
+    overflow: auto;
+    
+}
+.bottombar{
+    background-color:black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4.5rem;
+    z-index: 1;
+}
+.top-sidebar-label{
+    width: 97%;
+    height: 7rem;
+    background-color: #121212;
+    border-radius: .5rem;
+    margin: .5rem auto;
+
+    align-items: center;
+    display: flex;
+}
+.top-sidebar-label ul{
+    list-style: none;
+    padding: .5rem .75rem;
+}
+.top-sidebar-label ul li{
+    width: 23.25rem;
+    height: 2.5rem;
+    padding: .25rem .75rem;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    align-content: center;
+}
+
+.top-sidebar-label ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+
+.top-sidebar-label ul li span{
+    margin-right: .5rem;
+
+}
+.bottom-sidebar-label{
+    background-color: #121212;
+    width: 97%;
+    height: 27rem;
+    border-radius: .5rem;
+    margin: .5rem auto;
+    position: relative;
+}
+.library_heading{
+    padding: .5rem 1rem;
+}
+.library_heading button{
+    background-color: #121212;
+    color: white;
+    padding: .25rem .5rem;
+    font-size: 1rem;
+    border: none;
+}
+
+.library_option1{
+    width: 97%;
+    height: 8.333rem;
+    background-color: #242424;
+    margin: .5rem auto;
+    border-radius: .5rem;
+    
+}
+.headings{
+    padding: 1rem 1.25rem;
+}
+.headings .heading1{
+    color: white;
+    font-weight: 600;
+    margin-bottom: .65rem;
+    font-size: 1rem;
+}
+.heading2{
+    color: white;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    font-size: .875rem;
+
+}
+.btn{
+    margin-top: 1rem;
+}
+.btn button{
+    padding: .5rem 1rem;
+    border-radius:100px;
+    border: none;
+    font-size: .875rem;
+    font-weight: 700;
+}
+.library_option2{
+    width: 97%;
+    height: 8.333rem;
+    background-color: #242424;
+    margin: 1rem auto;
+    border-radius: .5rem;
+}
+
+.navbar{
+
+    height: 4rem;
+    /*border: 2px solid black;*/
+    background-color: #131313;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    position: sticky;
+    justify-content: space-between;
+    top: 0;
+}
+.navbar-icon{
+    color: white;
+}
+.navbar div{
+    display: flex;
+}
+.explore-button{
+    padding: .5rem 1rem;
+    border-radius:100px;
+    border: none;
+    font-size: .875rem;
+    font-weight: 700;
+}
+
+.install-button{
+    display: flex;
+    padding: .2rem .5rem;
+    border-radius:100px;
+    border: none;
+    font-size: .875rem;
+    font-weight: 700;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+
+}
+.install-button span{
+    margin-right: .5rem;
+}
+.button-text{
+    padding-top:.2rem ;
+}
+
+.navbar-musics-button{
+   /* width: 53.35rem;*/
+   /* border: 2px solid black;*/
+    background-color: #131313;
+    height: 4rem;
+    align-items: center;   
+    display: flex;
+       
+}
+.navbar-musics-button .button1{
+    margin-left: 5px;
+    padding: .5rem .7rem;
+    border-radius:100px;
+    border: none;
+    font-size: .875rem;
+    font-weight: 700;
+}
+.navbar-musics-button .button2{
+    margin-left: 5px;
+    padding: .5rem .7rem;
+    border-radius:100px;
+    border: none;
+    background-color:#363636;
+    color: white;
+    font-size: .875rem;
+    font-weight: 700;
+}
+
+.navbar-items{
+    border: 2px solid black;
+    height: 100%;
+    background-color:black ;
+    margin-top: 1.5rem;
+    padding-left:10px ;
+}
+.navbar-items h1{
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.Recently-card,.else-card{
+    display: flex;
+    
+}
+.else-card{
+    flex-wrap: wrap;
+}
+.card{
+    width: 11.8rem;
+    height: 16.3rem;
+    background-color:#1E1E1E ;
+    padding: .5rem;
+    margin-top: .75rem;
+    margin-left: 1.5rem;
+    border-radius: 4px;
+}
+
+.card-image{
+    width:100% ;
+    border-radius: 4px;
+}
+.card h3,p{
+    padding-top: .4rem;
+    color: white;
+}
+.card h3{
+    font-size: 1rem;
+}
+.card p{
+    font: size 0.75rem;
+    color:darkgray; 
+}
+
+.try-heading{
+    margin-top: 2rem;
+}
+
+.featured{
+    margin-top: 1rem;
+    
+}
+.featured-card{
+    display: flex;
+}
+
+.bottombar{
+    display: flex;
+}
+.bottom-left{
+    width: 25%;
+    height: 100%;
+    background-color:black;
+    display: flex;
+}
+.bottom-center{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+}
+.bottom-icon{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+.bottom-center-icon{
+    margin-left:1rem ;
+    margin-top: .5rem;
+}
+.bottom-center-icon{
+    color: white;
+}
+.volume{
+    display: flex;
+    justify-content: center;
+    padding: .5rem .5rem;
+}
+.volumn-width{
+    width: 70%;
+    -webkit-appearance: none;
+    height: .2rem;
+    margin-top: 5px;
+    outline: none;
+    border-radius: 3px;
+    background-color: #ddd;
+}
+
+
+.volume span{
+    color: white;
+    font-size: .75rem;
+    margin: 0 .5rem;
+}
+
+
+
+.bottom-right{
+    width: 25%;
+    height: 100%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+.bottom-right span{
+    font-size: 1.25rem;
+    opacity: .75;
+}
+.volumn-bar{
+        -webkit-appearance: none;
+        height: .2rem;
+        outline: none;
+        border-radius: 3px;
+        background-color: #ddd;
+}
+
+.image{
+    width: 20%;
+    height: 100%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border-radius: .6rem;
+}
+.lines{
+    width: 70%;
+    height: 100%;
+    align-content: center;
+    padding-left: .5rem;
+}
+.lines{
+    font-size: .75rem;
+}
+.icon{
+    width: 10%;
+    height: 100%;
+    align-content: center;
+
+}
+.icon span{
+    color: white;
+    opacity: .7;
+}
