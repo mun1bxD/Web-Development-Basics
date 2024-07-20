@@ -14,14 +14,14 @@ Welcome to the **Web Development Basics** repository! This repository contains e
 
 ### 2. CSS Files
 - 7 markdown files that include different CSS classes with brief explanations:
-  - **`css-file-1.md`**
-  - **`css-file-2.md`**
-  - **`css-file-3.md`**
-  - **`css-file-4.md`**
-  - **`css-file-5.md`**
-  - **`css-file-6.md`**
-  - **`css-file-7.md`**
-
+  - **`1.css 3.md`**
+  - **`2.css 3.md`**
+  - **`3.css 3.md`**
+  - **`4.css 3.md`**
+  - **`5.css 3.md`**
+  - **`6.css 3.md`**
+  - **`7.css 3.md`**
+    
 ### 3. JavaScript Folder
 - A folder named **`javascript`** containing files related to JavaScript basics, including classes and other fundamental concepts.
 
@@ -29,13 +29,13 @@ Welcome to the **Web Development Basics** repository! This repository contains e
 This section contains five folders, each representing a webpage with its corresponding HTML and CSS (and JavaScript for one):
 
 - **1. Non-Responsive Webpages:**
-  1. **`1.html` and `1.css`**
-  2. **`2.html` and `2.css`**
+  1. **`1.(html` and css)`**
+  2. **`2.(html` and css)`**
   
 - **2. Responsive Webpages:**
-  1. **`3.html` and `3.css`**
-  2. **`4.html` and `4.css`**
-  3. **`5.tailwind.html` and `5.javascript`**
+  1. **`3.(html` and css)`**
+  2. **`4.(html` and css)`**
+  3. **`5.(tailwind.html javascript)`**
 
 Each folder contains the complete code for the respective webpage.
 
@@ -49,4 +49,3 @@ If you find any issues or have suggestions for improvements, please feel free to
 
 ---
 
-Happy coding!
